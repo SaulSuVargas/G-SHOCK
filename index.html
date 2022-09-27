@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-SHOCK</title>
+
+    <!-- FAV ICON -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- BOXI ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">
+                <i class='bx bxs-watch nav_logo-icon'></i> G-SHOCK
+            </a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#inicio" class="nav_link active-link">Inicio</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#destacados" class="nav_link">Destacados</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#product" class="nav_link">Productos</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#new" class="nav_link">Lo Nuevo</a>
+                    </li>
+                </ul>
+
+                <div class="nav_close" id="nav-close">
+                    <i class='bx bx-x' ></i>
+                </div>
+            </div>
+
+            <div class="nav_btns">
+
+                <!-- BOTON DE TEMA OSCURO/CLARO -->
+                <i class="bx bx-moon change-theme" id="theme-button"></i>
+
+                <div class="nav_shop" id="cart-shop">
+                    <i class='bx bx-shopping-bag' ></i>
+                </div>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Cartas -->
+    <div class="cart" id="cart">
+        <i class='bx bx-x cart_close' id="cart-close"></i>
+
+        <h2 class="cart_title-center">Mi Carrito</h2>
+
+        <div class="cart_container">
+            <article class="cart_card">
+                <div class="cart_box">
+                    <img src="img/destacado1.png" alt="" class="cart_img">
+                </div>
+
+                <div class="cart_details">
+                    <h3 class="cart_title">GMA-S2200M-7A</h3>
+                    <span class="cart_precio">S/ 850.00</span>
+
+                    <div class="cart_monto">
+                        <div class="cart_monto-content">
+                            <span class="cart_monto-box">
+                                <i class='bx bx-minus' ></i>
+                            </span>
+
+                            <span class="cart_monto-number">1</span>
+
+                            <span class="cart_monto-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart_monto-trash' ></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart_card">
+                <div class="cart_box">
+                    <img src="img/new1.png" alt="" class="cart_img">
+                </div>
+
+                <div class="cart_details">
+                    <h3 class="cart_title">GA-2200SL-8A</h3>
+                    <span class="cart_precio">S/ 1,039.00</span>
+
+                    <div class="cart_monto">
+                        <div class="cart_monto-content">
+                            <span class="cart_monto-box">
+                                <i class='bx bx-minus' ></i>
+                            </span>
+
+                            <span class="cart_monto-number">1</span>
+
+                            <span class="cart_monto-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart_monto-trash' ></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart_card">
+                <div class="cart_box">
+                    <img src="img/home.png" alt="" class="cart_img">
+                </div>
+
+                <div class="cart_details">
+                    <h3 class="cart_title">GM-110G-1A9</h3>
+                    <span class="cart_precio">S/ 1,300.00</span>
+
+                    <div class="cart_monto">
+                        <div class="cart_monto-content">
+                            <span class="cart_monto-box">
+                                <i class='bx bx-minus' ></i>
+                            </span>
+
+                            <span class="cart_monto-number">1</span>
+
+                            <span class="cart_monto-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart_monto-trash' ></i>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="cart_precios">
+            <span class="cart_precios-item">3 Relojs</span>
+            <span class="cart_precios-total">S/ 3,189.00</span>
+        </div>
+    </div>
+   
+    <!-- MAIN -->
+    <main class="main">
+        <!-- "SECCION INICIO"-->
+        <section class="inicio" id="inicio">
+            <div class="inicio_container container grid">
+                <div class="inicio_img-bg">
+                    <img src="img/home.png" alt="" class="inicio_img">
+                </div>
+
+                <div class="inicio_data">
+                    <h1 class="inicio_title">
+                        RELOJ G-SHOCK <br> GM-110G-1A9 
+                    </h1>
+                    <p class="inicio_description">
+                        Esta nueva coleccion nos ofrece elegancia y una 
+                        completa información para que lleves un control perfecto de tus rutinas diarias.
+                    </p>
+                    <span class="inicio_precio">S/ 1,300.00</span>
+
+                    <div class="inicio_btns">
+                        <a href="#product" class="button button--gris button--small">
+                            Descubre lo nuevo
+                        </a>
+                        <button  href="cart" class="button inicio_button">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </section>  
+
+        <!-- "SECCION DESTACADO"-->
+        <section class="destacado section container" id="destacados">
+            <h2 class="section_title">
+                Destacados
+            </h2>
+
+            <div class="destacado_container grid">
+                <article class="destacado_card">
+                    <span class="destacado_tag">Sale</span>
+
+                    <img src="img/destacado1.png" alt="" class="destacado_img">
+                
+                    <div class="destacado_data">
+                        <h3 class="destacado_title">GMA-S2200M-7A</h3>
+                        <span class="destacado_precio">S/ 850.00</span>
+                    </div>
+
+                    <button class="button destacado_button">
+                        Añadir al carrito
+                    </button>
+                </article>
+
+                <article class="destacado_card">
+                    <span class="destacado_tag">Sale</span>
+
+                    <img src="img/destacado3.png" alt="" class="destacado_img">
+                
+                    <div class="destacado_data">
+                        <h3 class="destacado_title">GMA-S2200-1A</h3>
+                        <span class="destacado_precio">S/ 900.00</span>
+                    </div>
+
+                    <button class="button destacado_button">
+                        Añadir al carrito
+                    </button>
+                </article>
+
+                <article class="destacado_card">
+                    <span class="destacado_tag">Sale</span>
+
+                    <img src="img/image (2).png" alt="" class="destacado_img">
+                
+                    <div class="destacado_data">
+                        <h3 class="destacado_title">GA800-4A</h3>
+                        <span class="destacado_precio">S/ 880.00</span>
+                    </div>
+
+                    <button class="button destacado_button">
+                        Añadir al carrito
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <!-- "SECCION STORY"-->
+        <section class="story section container">
+            <div class="story_container grid">
+                <div class="story_data">
+                    <h2 class="section_title story_section-title">
+                        Nuestro Origen 
+                    </h2>
+
+                    <h1 class="story_title">
+                        Estilo y Elegancia
+                    </h1>
+
+                    <p class="story_description">
+                        Ofrecemos relojes y accesorios que, por su alta calidad y tecnología, 
+                        perduran con los años, perpetuando la tradición por el buen gusto y elegancia
+                        de G-SHOCK.
+                    </p>
+
+                    <a href="#" class="button button--small">Descúbrelo</a>
+                </div>
+
+                <div class="story_images">
+                    <img src="img/story.jpg" alt="" class="story_img">
+                    <div class="story_square"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- "SECCION PRODUCTOS"-->
+        <section class="products section container" id="product">
+            <h2 class="section_title">
+                Productos
+            </h2>
+
+            <div class="products_container grid">
+                <article class="products_card">
+                    <img src="img/home.png" alt="" class="products_img">
+                    
+                    <h3 class="products_title">GM-110G-1A9</h3>
+                    <span class="products_precio">S/ 1,300.00</span>
+                
+                    <button class="products_button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="products_card">
+                    <img src="img/new1.png" alt="" class="products_img">
+                    
+                    <h3 class="products_title">GA-220-2A</h3>
+                    <span class="products_precio">S/ 900.00</span>
+                
+                    <button class="products_button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="products_card">
+                    <img src="img/producto3.png" alt="" class="products_img">
+                    
+                    <h3 class="products_title">GA-2200SL-8A</h3>
+                    <span class="products_precio">S/ 1,039.00</span>
+                
+                    <button class="products_button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="products_card">
+                    <img src="img/destacado1.png" alt="" class="products_img">
+                    
+                    <h3 class="products_title">GMA-S2200M-7A</h3>
+                    <span class="products_precio">S/ 850.00</span>
+                
+                    <button class="products_button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="products_card">
+                    <img src="img/producto4.png" alt="" class="products_img">
+                    
+                    <h3 class="products_title">GA-700-4A</h3>
+                    <span class="products_precio">S/ 880.00</span>
+                
+                    <button class="products_button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="products_card">
+                    <img src="img/destacado3.png" alt="" class="products_img">
+                    
+                    <h3 class="products_title">GMA-S2200-1A</h3>
+                    <span class="products_precio">S/ 900.00</span>
+                
+                    <button class="products_button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- "SECCION DE TESTIMONIOS" -->
+        <section class="testimonio section container">
+            <h2 class="section_title">
+                Comentarios 
+            </h2>
+            <div class="testimonio_container grid">
+                <div class="swiper testimonio-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="testimonio_card swiper-slide">
+                            <div class="testimonio_quote">
+                                <i class='bx bxs-quote-alt-left' ></i>
+                            </div>
+
+                            <p class="testimonio_description">
+                                Un reloj con un diseño espectacular,para esos consumidores con 
+                                ganas de portar un g-shock siendo esté el más fino construido.
+                            </p>
+                            <h3 class="testimonio_date">Martes 27 Sept. 2022</h3>
+                        
+                            <div class="testimonio_perfil">
+                                <img src="img/test1.jpeg" alt="" class="testimonio_perfil-img">
+                            
+                                <div class="testimonio_perfil-data">
+                                    <span class="testimonio_perfil-name">Anderson Su</span>
+                                    <span class="testimonio_perfil-detail">Policia PNP</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonio_card swiper-slide">
+                            <div class="testimonio_quote">
+                                <i class='bx bxs-quote-alt-left' ></i>
+                            </div>
+
+                            <p class="testimonio_description">
+                                Es impresionante lo duros que son y las cosas que soportan, estos 
+                                relojes han sufrido pruebas muy duras y aún asi siguen funcionando 
+                                correctamente por lo que con un uso correcto y normal este reloj te puede durar muchísimos años.
+                            </p>
+                            <h3 class="testimonio_date">Martes 27 Sept. 2022</h3>
+                        
+                            <div class="testimonio_perfil">
+                                <img src="img/test2.jpeg" alt="" class="testimonio_perfil-img">
+                            
+                                <div class="testimonio_perfil-data">
+                                    <span class="testimonio_perfil-name">Jocelyn Castillo</span>
+                                    <span class="testimonio_perfil-detail">Nutricionista</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonio_card swiper-slide">
+                            <div class="testimonio_quote">
+                                <i class='bx bxs-quote-alt-left' ></i>
+                            </div>
+
+                            <p class="testimonio_description">
+                                Este es un reloj que yo creo es necesario tener en tu estuche ya que 
+                                todo lo que te ofrece son cosas buenas como su precio sin competencia, 
+                                funciones realmente increíbles, una más que destacada calidad.
+                            </p>
+                            <h3 class="testimonio_date">Martes 27 Sept. 2022</h3>
+                        
+                            <div class="testimonio_perfil">
+                                <img src="img/test3.jpeg" alt="" class="testimonio_perfil-img">
+                            
+                                <div class="testimonio_perfil-data">
+                                    <span class="testimonio_perfil-name">Deysi Castillo</span>
+                                    <span class="testimonio_perfil-detail">Administradora</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class='bx bx-left-arrow-alt' ></i>
+                    </div>
+                </div>
+
+                <div class="testimonio_images">
+                    <div class="testimonio_square"></div>
+                    <img src="img/testimonio-home.jpg" class="testimonio_img"></img>
+                </div>
+            </div>
+        </section>
+
+        <!-- "SECCION NUEVO"-->
+        <section class="new section container" id="new">
+            <h2 class="section_title">
+                NUEVA COLECCÍON
+            </h2>
+
+            <div class="new_container">
+                <div class="swiper new-swiper">
+                    <div class="swiper-wrapper">
+                        <article class="new_card swiper-slide">
+                            <span class="new_tag">Nuevo</span>
+
+                            <img src="img/new.png" alt="" class="new_img">
+                        
+                            <div class="new_data">
+                                <h3 class="new_title">GA-2200BB-1A</h3>
+                                <span class="new_precio">S/ 880.00</span>
+                            </div>
+
+                            <button class="button new_button">Añadir al carrito</button>
+                        </article>
+
+                        <article class="new_card swiper-slide">
+                            <span class="new_tag">Nuevo</span>
+
+                            <img src="img/new1.png" alt="" class="new_img">
+                        
+                            <div class="new_data">
+                                <h3 class="new_title">GA-2200-2A</h3>
+                                <span class="new_precio">S/ 880.00</span>
+                            </div>
+
+                            <button class="button new_button">Añadir al carrito</button>
+                        </article>
+
+                        <article class="new_card swiper-slide">
+                            <span class="new_tag">Nuevo</span>
+
+                            <img src="img/new2.png" alt="" class="new_img">
+                        
+                            <div class="new_data">
+                                <h3 class="new_title">GA-2200M-1A</h3>
+                                <span class="new_precio">S/ 890.00</span>
+                            </div>
+
+                            <button class="button new_button">Añadir al carrito</button>
+                        </article>
+
+                        <article class="new_card swiper-slide">
+                            <span class="new_tag">Nuevo</span>
+
+                            <img src="img/new3.png" alt="" class="new_img">
+                        
+                            <div class="new_data">
+                                <h3 class="new_title">GA-2200M-4A</h3>
+                                <span class="new_precio">S/ 840.00</span>
+                            </div>
+
+                            <button class="button new_button">Añadir al carrito</button>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- "SECCION INFORMACION" -->
+        <section class="ninfo section container">
+            <div class="info_bg grid">
+                <div>
+                    <h2 class="info_title">
+                        Se parte de nosotros! <br> Suscríbete
+                    </h2>
+                    <p class="info_description">
+                        No te pierdas los descuentos. Suscríbete a nuestra tienda, 
+                        atravez de un correo para que recibas las mejores ofertas, descuentos, 
+                        cupones, regalos, información y mucho más.
+                    </p>
+                </div>
+
+                <form action="" class="info_suscribete">
+                    <input type="email" placeholder="Ingresa tu correo" class="info_input">
+                    <button class="button">
+                        SUSCRÍBETE
+                    </button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="foter section">
+        <div class="foter_container container grid">
+            <div class="foter_content">
+                <h3 class="foter_title">Información</h3>
+
+                <ul class="foter_list">
+                    <li>Lima - Peru</li>
+                    <li>Av Puente Piedra 473</li>
+                    <li>999-888-777</li>
+                </ul>
+            </div>
+
+            <div class="foter_content">
+                <h3 class="foter_title">Sobre nosotros</h3>
+
+                <ul class="foter_links">
+                    <li>
+                        <a href="" class="foter_link">Atencion al cliente</a>
+                    </li>
+                    <li>
+                        <a href="" class="foter_link">Política de cookies</a>
+                    </li>
+                    <li>
+                        <a href="" class="foter_link">Aviso legal</a>
+                    </li>
+                    <li>
+                        <a href="" class="foter_link">Política de privacidad</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="foter_content">
+                <h3 class="foter_title">Productos</h3>
+
+                <ul class="foter_links">
+                    <li>
+                        <a href="" class="foter_link">Accsésorios</a>
+                    </li>
+                    <li>
+                        <a href="" class="foter_link">Devoluciones</a>
+                    </li>
+                    <li>
+                        <a href="" class="foter_link">Promociones</a>
+                    </li>
+                    <li>
+                        <a href="" class="foter_link">Deliverys</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="foter_content">
+                <h3 class="foter_title">Redes Sociales</h3>
+
+                <ul class="foter_social">
+                    <a href="https://www.facebook.com/saul.suvargas" target="_blank" class="foter_social-link">
+                        <i class='bx bxl-facebook-circle' ></i>
+                    </a>
+                    <a href="https://www.instagram.com/saulsuvargas/" target="_blank" class="foter_social-link">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                    <a href="https://github.com/SaulSuVargas" target="_blank" class="foter_social-link">
+                        <i class='bx bxl-github' ></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <span class="foter_copy">
+            &copy; Creado por
+            <a href="https://www.instagram.com/saulsuvargas/" target="_blank"
+            >Saul Su Vargas </a>
+        </span>
+    </footer>
+
+    <!-- SCROLL (ARRIBA) -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup_icon'></i>
+    </a>
+
+    <!-- SWIPER JS -->
+    <script src="swiper-bundle.min.js"></script>
+
+    <!-- SCRIPT PRINCIPAL -->
+    <script src="main.js"></script>
+</body>
+</html>
